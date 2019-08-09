@@ -20,7 +20,7 @@ The results of the paper came from the **Tensorflow code**
 - Python packages:  `pip install numpy opencv-python`
 
 ## Usage
-**For Selfie2anime**
+**For Selfie2anime (unofficial)**
 - trainA: [Selfie Dataset](https://www.crcv.ucf.edu/data/Selfie/)
   ~47K images
 - trainB: [Anime Dataset](https://drive.google.com/open?id=1kWmQDB6txhkzrFpv3zKlec5fQWI53l1i)
