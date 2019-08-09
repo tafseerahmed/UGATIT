@@ -53,6 +53,7 @@ The results of the paper came from the **Tensorflow code**
 * If the memory of gpu is **not sufficient**, set `--light` to **True**
   * But it may **not** perform well
   * paper version is `--light` to **False**
+* Also advised to resize the images to 286x286 for faster training.
 
 ### Test
 ```
