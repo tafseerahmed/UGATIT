@@ -14,6 +14,11 @@ The results of the paper came from the **Tensorflow code**
 >
 > **Abstract** *We propose a novel method for unsupervised image-to-image translation, which incorporates a new attention module and a new learnable normalization function in an end-to-end manner. The attention module guides our model to focus on more important regions distinguishing between source and target domains based on the attention map obtained by the auxiliary classifier. Unlike previous attention-based methods which cannot handle the geometric changes between domains, our model can translate both images requiring holistic changes and images requiring large shape changes. Moreover, our new AdaLIN (Adaptive Layer-Instance Normalization) function helps our attention-guided model to flexibly control the amount of change in shape and texture by learned parameters depending on datasets. Experimental results show the superiority of the proposed method compared to the existing state-of-the-art models with a fixed network architecture and hyper-parameters.*
 
+## Dependencies
+- Python 3.6+
+- TensorFlow 1.10.0 or newer with GPU support.
+- Python packages:  `pip install numpy opencv-python`
+
 ## Usage
 ```
 ├── dataset
