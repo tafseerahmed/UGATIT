@@ -20,6 +20,11 @@ The results of the paper came from the **Tensorflow code**
 - Python packages:  `pip install numpy opencv-python`
 
 ## Usage
+**For Selfie2anime**
+- trainA: [Selfie Dataset](https://www.crcv.ucf.edu/data/Selfie/)
+  ~47K images
+- trainB: [Anime Dataset](https://drive.google.com/open?id=1kWmQDB6txhkzrFpv3zKlec5fQWI53l1i)
+  ~5K images (4:1 female to male ratio)
 ```
 ├── dataset
    └── YOUR_DATASET_NAME
